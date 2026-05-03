@@ -10,7 +10,7 @@ export const daftarGuru: GuruItem[] = [
   {
     id: 1,
     nama: "AHMAD ZAENURI, S.Kom",
-    jabatan: "Ketua Jurusan RPL",
+    jabatan: "Guru Produktif",
     mapel: "-",
     foto: "https://smkn4kendal.sch.id/media_library/employees/21807bbbe3f33a0b160749a2ce1fe666.JPG",
   },
@@ -24,7 +24,7 @@ export const daftarGuru: GuruItem[] = [
   {
     id: 3,
     nama: "DAYANANTO GATIE P., S.Kom., M.Si",
-    jabatan: "Guru Produktif",
+    jabatan: "Waka Kesiswaan",
     mapel: "=",
     foto: "https://smkn4kendal.sch.id/media_library/employees/1f7e81ed2c207295864c8ba3ec292802.JPG",
   },
@@ -52,7 +52,7 @@ export const daftarGuru: GuruItem[] = [
   {
     id: 7,
     nama: "SITI MARIATUL KIPTIYAH, S.Pd., M.Si.",
-    jabatan: "Guru Produktif",
+    jabatan: "Kepala Laboratorium",
     mapel: "-",
     foto: "/asset/svg/user.svg",
   },
