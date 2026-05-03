@@ -1,4 +1,15 @@
+/**
+ * Dummy.ts
+ * ----------
+ * File ini adalah Single Source of Truth untuk data statis website.
+ * Fungsinya meliputi:
+ * 1. Sentralisasi Konten: Memudahkan pengelolaan teks/data tanpa hardcode di komponen.
+ * 2. Definisi Interface: Menjamin konsistensi struktur data (Type-safety).
+ * 3. Easy Maintenance: Mempercepat update informasi (kontak, keunggulan, dll).
+ * 4. Path Assets: Menyimpan referensi ke ikon dan gambar statis.
+ */
 
+// type Data Highlightitem
 export interface HighlightItem {
   id: number;
   icon: string;
@@ -6,6 +17,7 @@ export interface HighlightItem {
   description: string;
 }
 
+// type Data InfoKontak
 export interface InfoKontak {
   alamat: string;
   email: string;
@@ -17,11 +29,13 @@ export interface InfoKontak {
   }[];
 }
 
+// type Data MenuItem
 export interface MenuItem {
   name: string;
   path: string;
 }
 
+// Data Highlightitem
 export const highlights: HighlightItem[] = [
   {
     id: 1,
@@ -53,7 +67,7 @@ export const highlights: HighlightItem[] = [
   },
 ];
 
-
+// Data InfoKontak
 export const infoKontak: InfoKontak = {
   alamat: "Gedung A, SMKN 4 Kendal, Jl. Soekarno-Hatta, Brangsong Utara, Brangsong, Kec. Brangsong, Kabupaten Kendal, Jawa Tengah 51318",
   email: "smkn04kendal@gmail.com",
@@ -77,6 +91,7 @@ export const infoKontak: InfoKontak = {
   ],
 };
 
+// Data MenuItem
 export const menuNavbar: MenuItem[] = [
   { name: "Beranda", path: "/" },
   { name: "Tentang", path: "/tentang" },

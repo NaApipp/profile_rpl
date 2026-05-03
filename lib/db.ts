@@ -1,5 +1,14 @@
 import mysql from "mysql2/promise";
 
+/**
+ * db.ts
+ * ----------
+ * Database connection pool untuk website RPL.
+ * 
+ * Format: TypeScript
+ */
+
+// Database connection pool
 const db = mysql.createPool({
   host: process.env.DATABASE_HOST,
   user: process.env.DATABASE_USERNAME,

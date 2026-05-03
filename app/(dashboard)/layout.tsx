@@ -1,4 +1,13 @@
-// app/(protected)/layout.tsx
+
+/**
+ * layout.tsx
+ * ----------
+ * Layout utama untuk halaman private dashboard RPL SMKN 4 Kendal.
+ * ----------------------------------------------------------------
+ * 
+ * Format: React TypeScript
+ */
+
 import { AuthProvider } from "./authProvider";
 
 import type { Metadata } from "next";

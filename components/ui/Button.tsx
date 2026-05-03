@@ -3,6 +3,10 @@
  * ----------
  * Komponen tombol reusable. Bisa dirender sebagai <button> atau <Link> (jika ada href).
  * Mendukung beberapa varian dan ukuran.
+ * 
+ * Digunakan untuk main route seperti /, /tentang, /kurikulum, dan /kontak.
+ * 
+ * Format: React TypeScript
  */
 "use client";
 

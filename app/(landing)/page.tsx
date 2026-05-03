@@ -3,6 +3,8 @@
  * ------------------
  * Halaman utama website profil jurusan RPL.
  * Menggabungkan semua section menjadi satu halaman utuh.
+ * 
+ * Format: import components all section
  */
 import React from "react";
 import Hero from "@/components/sections/Hero";

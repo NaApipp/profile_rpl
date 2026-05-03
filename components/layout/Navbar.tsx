@@ -3,6 +3,10 @@
  * ----------
  * Komponen navigasi utama. Sticky di bagian atas layar.
  * Memiliki menu responsif (hamburger) untuk versi mobile.
+ * 
+ * Digunakan pada main route seperti /, /tentang, /kurikulum, dan /kontak.
+ * 
+ * Format: React TypeScript
  */
 "use client";
 

@@ -1,7 +1,15 @@
 "use client";
 
+/**
+ * not-found.tsx
+ * ----------
+ * Halaman 404 Not Found (custom) untuk halaman web profil RPL SMKN 4 Kendal.
+ * 
+ * Format: TypeScript
+ */
+
 import { motion } from "framer-motion";
-import { Home, ArrowLeft, Terminal } from "lucide-react";
+import { ArrowLeft, Terminal } from "lucide-react";
 import Button from "@/components/ui/Button";
 
 export default function NotFound() {

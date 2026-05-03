@@ -2,7 +2,11 @@
  * Berita.tsx
  * ----------
  * Section Berita (Coming Soon). Menampilkan placeholder menarik.
+ * ----------------------------------------------------------------
+ * 
+ * 
  */
+
 "use client";
 
 import React from "react";

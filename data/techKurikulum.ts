@@ -1,3 +1,12 @@
+/**
+ * TechKurikulum.ts
+ * ----------
+ * Data statis untuk section kurikulmPreview.tsx dan halaman Kurikulum.
+ * 
+ * Format: Array of Object
+ */
+
+// Type TeknologiItem
 export interface TeknologiItem {
     id: number;
     icon: string;
@@ -5,6 +14,7 @@ export interface TeknologiItem {
     description: string;
 }
 
+// Data TeknologiItem
 export const teknologi: TeknologiItem[] = [
   {
     id: 1,

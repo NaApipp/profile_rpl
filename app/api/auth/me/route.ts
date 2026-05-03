@@ -1,4 +1,12 @@
-  // app/api/auth/me/route.ts
+  /**
+   * /api/auth/me/route.ts
+   * ----------
+   * API untuk mendapatkan informasi user yang sedang login.
+   * ----------------------------------------------------------------
+   * 
+   * Format: Next.js Route Handler
+   */
+
   import { NextResponse } from "next/server";
   import { verifyToken } from "@/lib/auth";
 

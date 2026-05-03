@@ -1,4 +1,12 @@
-// app/api/auth/login/route.ts
+
+/**
+ * /api/auth/login/route.ts
+ * ----------
+ * API untuk login admin pada website RPL SMKN 4 Kendal. baseon data user yang telah di mock
+ * 
+ * Format: Next.js Route Handler
+ */
+
 import { NextResponse } from "next/server";
 import { USERS } from "@/lib/user";
 import { signToken } from "@/lib/auth";

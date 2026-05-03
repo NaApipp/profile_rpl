@@ -1,3 +1,12 @@
+/**
+ * /api/pesan/route.ts
+ * ----------
+ * API untuk POST dan GET pesan pada website RPL SMKN 4 Kendal. dari form di /kontak
+ * ----------------------------------------------------------------
+ * 
+ * Format: Next.js Route Handler
+ */
+
 import { NextResponse } from "next/server";
 import db from "@/lib/db";
 import { ResultSetHeader } from "mysql2";

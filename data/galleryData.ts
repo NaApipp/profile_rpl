@@ -1,3 +1,12 @@
+/**
+ * GalleryData.ts
+ * ----------
+ * Data statis untuk section Galeri.tsx.
+ * 
+ * Format: Array of Object
+ */
+
+// Type data GaleriItem
 export interface GaleriItem {
   id: number;
   src: string;
@@ -5,6 +14,7 @@ export interface GaleriItem {
   caption: string;
 }
 
+// Data GaleriItem
 export const galeri: GaleriItem[] = [
   {
     id: 1,

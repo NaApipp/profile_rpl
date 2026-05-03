@@ -1,8 +1,12 @@
 /**
  * Footer.tsx
  * ----------
- * Bagian bawah website. Berisi informasi kontak singkat, link navigasi cepat,
- * dan tautan sosial media sekolah.
+ * Komponen footer website RPL SMKN 4 Kendal. Berisi informasi kontak singkat,
+ * link navigasi cepat, dan tautan sosial media sekolah.
+ * 
+ * Digunakan pada main route seperti /, /tentang, /kurikulum, dan /kontak.
+ * 
+ * Format: React TypeScript
  */
 import React from "react";
 import Link from "next/link";

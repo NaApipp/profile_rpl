@@ -2,6 +2,8 @@
  * page.tsx (Kurikulum)
  * --------------------
  * Menampilkan struktur kurikulum per tingkat kelas (X, XI, XII).
+ * 
+ * 
  */
 "use client";
 

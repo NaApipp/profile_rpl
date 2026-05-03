@@ -1,3 +1,12 @@
+/**
+ * GuruData.ts
+ * ----------
+ * Data statis untuk section Guru dan Staff (gutu.tsx).
+ * 
+ * Format: Array of Object
+ */
+
+// Type Data GuruItem
 export interface GuruItem {
   id: number;
   nama: string;

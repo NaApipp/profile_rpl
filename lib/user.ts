@@ -1,7 +1,15 @@
-// lib/users.ts
+/**
+ * user.ts
+ * ----------
+ * Dummy / mock data user untuk login dashboard RPL.
+ * 
+ * Format: TypeScript
+ */
+
+// type DemoUser
 export type DemoUser = {
   username: string;
-  password: string; // demo only (plaintext). Jangan gini di production.    
+  password: string;
 };
 
 export const USERS: DemoUser[] = [

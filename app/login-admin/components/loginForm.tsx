@@ -1,5 +1,13 @@
 "use client";
 
+/**
+ * LoginForm.tsx
+ * ----------
+ * Formulir Login Admin untuk masuk ke dashboard RPL SMKN 4 Kendal.
+ * 
+ * Format: React TypeScript
+ */
+
 import React, { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";

@@ -1,4 +1,12 @@
-// app/api/auth/logout/route.ts
+/**
+ * /api/auth/logout/route.ts
+ * ----------
+ * API untuk logout admin pada website RPL SMKN 4 Kendal. 
+ * ----------------------------------------------------------------
+ * 
+ * Format: Next.js Route Handler
+ */
+
 import { NextResponse } from "next/server";
 
 export async function POST() {

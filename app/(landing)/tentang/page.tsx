@@ -2,6 +2,8 @@
  * page.tsx (Tentang)
  * ------------------
  * Halaman profil jurusan, visi misi, dan tujuan pembelajaran.
+ * ----------------------------------------------------------------
+ * Format: React TypeScript
  */
 "use client";
 

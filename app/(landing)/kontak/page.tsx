@@ -1,7 +1,9 @@
 /**
  * page.tsx (Kontak)
  * -----------------
- * Halaman kontak dengan form (UI saja) dan informasi alamat sekolah.
+ * Halaman kontak dengan form dan informasi alamat sekolah.
+ * 
+ * 
  */
 "use client";
 

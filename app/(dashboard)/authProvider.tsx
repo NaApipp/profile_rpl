@@ -1,4 +1,13 @@
-// components/AuthProvider.tsx
+
+/**
+ * AuthProvider.tsx
+ * ----------
+ * Context untuk manajemen state autentikasi dan session.
+ * ----------------------------------------------------------------
+ * 
+ * Format: React TypeScript
+ */
+
 "use client";
 
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
