@@ -1,5 +1,15 @@
 "use client";
 
+/**
+ * Sidebar.tsx
+ * ----------
+ * Komponen sidebar website RPL SMKN 4 Kendal. Berisi link navigasi cepat.
+ * 
+ * Digunakan pada main route dashboard seperti /dashboard.
+ * 
+ * Format: React TypeScript
+ */
+
 // App router
 import Link from 'next/link';
 import { useAuth } from '../authProvider';

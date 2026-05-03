@@ -1,3 +1,10 @@
+/**
+ * page.tsx
+ * ----------
+ * Halaman route /dashboard RPL SMKN 4 Kendal.
+ * 
+ * 
+ */
 "use client";
 
 import { useEffect, useState } from "react";
