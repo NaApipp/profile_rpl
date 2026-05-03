@@ -7,8 +7,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
 
 // Menggunakan font Inter dari Google Fonts
 const inter = Inter({
@@ -103,12 +101,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id" className={`${inter.variable} scroll-smooth`}>
-      <body className="font-sans bg-[#f0f4fb] text-[#243a5e] overflow-x-hidden min-h-screen flex flex-col">
-        <Navbar />
-        <main className="flex-grow">
+      <body className="font-sans bg-[#f0f4fb] text-[#243a5e] overflow-x-hidden min-h-screen">
           {children}
-        </main>
-        <Footer />
       </body>
     </html>
   );
