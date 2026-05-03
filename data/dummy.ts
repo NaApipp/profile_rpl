@@ -55,7 +55,7 @@ export const highlights: HighlightItem[] = [
 
 
 export const infoKontak: InfoKontak = {
-  alamat: "Gedung A, Jl. Soekarno-Hatta, Brangsong Utara, Brangsong, Kec. Brangsong, Kabupaten Kendal, Jawa Tengah 51318",
+  alamat: "Gedung A, SMKN 4 Kendal, Jl. Soekarno-Hatta, Brangsong Utara, Brangsong, Kec. Brangsong, Kabupaten Kendal, Jawa Tengah 51318",
   email: "smkn04kendal@gmail.com",
   telepon: "08112969000",
   sosmed: [
