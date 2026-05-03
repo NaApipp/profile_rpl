@@ -43,8 +43,8 @@ export default function Navbar() {
           
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-lg bg-[#395886] flex items-center justify-center text-white font-bold text-xl group-hover:bg-[#5b7fb8] transition-colors">
-              <Image src="/asset/image/logo.png" alt="Logo" width={50} height={50} />
+            <div className="w-10 h-10 flex items-center justify-center text-white font-bold text-xl">
+              <Image src="/asset/image/logo/logo-rpl.png" alt="Logo" width={50} height={50} />
             </div>
             <span className="font-bold text-xl text-[#243a5e] tracking-tight">
               RPL SMKN 4 Kendal
