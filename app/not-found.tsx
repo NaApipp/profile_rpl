@@ -53,11 +53,9 @@ export default function NotFound() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button
               href="/"
-              variant="primary"
-              className="px-8 flex items-center gap-2 group"
+              className="px-8 items-center gap-2 group"
             >
-              <Home className="w-4 h-4" />
-              Kembali ke Beranda
+              <span>Kembali ke Beranda</span>
             </Button>
             
             <button
