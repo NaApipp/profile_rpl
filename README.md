@@ -148,7 +148,9 @@ Buka [http://localhost:3000](http://localhost:3000) di browser Anda.
 ### Login Admin (Pengelola)
 
 1. Akses halaman `/login-admin`.'
+
 2.Masukkan username dan password default (lihat file `lib/user.ts`).
+
 3. Anda akan diarahkan ke Dashboard untuk melihat daftar pesan masuk.
 
 ---
