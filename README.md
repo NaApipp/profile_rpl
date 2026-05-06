@@ -329,6 +329,45 @@ A: Ikuti langkah berikut di server kamu:
 > dan **Certbot** untuk SSL gratis.
 ---
 
+## Display UI UX
+
+### Main Page
+
+<div align="center">
+  <br/>
+  <p align="center"><strong>Home Page</strong></p>
+  <img src="public/ui-ux-display/main-page/home-page.png" width="700" alt="Home Page" />
+  <br/><br/>
+  
+  <p align="center"><strong>Tentang Page</strong></p>
+  <img src="public/ui-ux-display/main-page/tentang-page.png" width="700" alt="Tentang Page" />
+  <br/><br/>
+
+  <p align="center"><strong>Kurikulum Page</strong></p>
+  <img src="public/ui-ux-display/main-page/kurikulum-page.png" width="700" alt="Kurikulum Page" />
+  <br/><br/>
+
+  <p align="center"><strong>Kontak Page</strong></p>
+  <img src="public/ui-ux-display/main-page/kontak-page.png" width="700" alt="Kontak Page" />
+  <br/><br/>
+</div>
+
+### Dashboard Page
+
+<div align="center">
+  <br/>
+  <p align="center"><strong>Login Portal</strong></p>
+  <img src="public/ui-ux-display/dashboard/login-portal-page.png" width="700" alt="Login Page" />
+  <br/><br/>
+
+  <p align="center"><strong>Dashboard Admin</strong></p>
+  <img src="public/ui-ux-display/dashboard/dashboard-page.png" width="700" alt="Dashboard Page" />
+  <br/><br/>
+</div>
+
+
+---
+
 ## Roadmap
 
 - [x] Landing Page & Profil Jurusan.
